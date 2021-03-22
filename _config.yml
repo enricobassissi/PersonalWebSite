@@ -29,7 +29,7 @@ instagram_username: enribassissi
 linkedin_username: enrico-bassissi/
 # xing_username: jekyll
 # pinterest_username: jekyll
-youtube_username: Enrico Bassissi
+# youtube_username: jekyll
 # googleplus_username: +jekyll
 orcid_username: 0000-0001-8501-9445
 
@@ -52,23 +52,24 @@ orcid_username: 0000-0001-8501-9445
 # about_title: About Me (Use this to override about section title)
 about_profile_image: images\cv_photo_201911_Bassissi.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Write an awesome description about yourself here, this supports markdown, so you can add [links](http://foobar.com) and highlight things <mark>like this</mark>.
+# Write an awesome description about yourself here, this supports markdown, so you can add [links](http://foobar.com) and highlight things <mark>like this</mark>.
+  I'm a very passionate and curious person, always looking for the next challenge to dive in and accomplish.
 
   You can even add paragraphs by using empty lines like this and add anything else [markdown](https://www.markdownguide.org/getting-started#what-is-markdown) supports such as
     - Lists
     - Tables
     - <a href="google.com">Links</a>
-    - Images ![alt text](/images/landscape-trees.jpg "Trees")
+    - Images ![alt text](\images\landscape-trees.jpg "Trees")
 
 content:
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: Project name
+        title: Orbital Mechanics
         link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-        link_text: Link Text
-        additional_links:
+        link_text: Report ![Report](\docs\OrbitalMechanics\OrbitalMech_20192020_group01.pdf)
+        # additional_links:
           - title:  Github page for project (eg. sproogen/modern-resume-theme)
             icon: fab fa-github
             url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
@@ -76,9 +77,14 @@ content:
             icon: fab fa-github
             url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
         quote: >
-          Short overview of the project (optional)
+          Short overview of the project 
         description: | # this will include new lines to allow paragraphs
-          Description about the work on/with the project
+          Final course project in Orbital Mechanics. The topics to be developed were: an Interplanetary Mission from Mercury to Neptune with power gravity assist on Mars, 
+          developed both with classical numerical minimisation approaches and with genetic algorithm methods.
+          Furthermore a second part was related to the development of an Earth's orbit environment mission, on which the objective was to propagate the spacecraft dynamics with
+          both Gauss and Lagrange methods, taking into account J2 effect and 3rd body Moon effect, compare them, assess the ground track coverage and perform a comparison with real 
+          satellite telemetry data.
+
   - title: Experience
     layout: list
     content:
