@@ -1,6 +1,6 @@
 # Site
 # repository: Git repository where your resume will be hosted, only required if you are hosting on GitHub (eg. sproogen/modern-resume-theme)
-favicon: ![My fav icon](/images/saturn-icon-vector.ico)
+# favicon: ![My fav icon](/images/saturn-icon-vector.ico)
 
 # Content configuration version
 version: 2
