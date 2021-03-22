@@ -1,6 +1,6 @@
 # Site
 # repository: Git repository where your resume will be hosted, only required if you are hosting on GitHub (eg. sproogen/modern-resume-theme)
-favicon: images\saturn-icon-vector.ico
+favicon: /images/saturn-icon-vector.ico
 
 # Content configuration version
 version: 2
@@ -50,7 +50,7 @@ orcid_username: 0000-0001-8501-9445
 
 # About Section
 # about_title: About Me (Use this to override about section title)
-about_profile_image: images\cv_photo_201911_Bassissi.jpg
+about_profile_image: /images/cv_photo_201911_Bassissi.jpg
 about_content: | # this will include new lines to allow paragraphs
 # Write an awesome description about yourself here, this supports markdown, so you can add [links](http://foobar.com) and highlight things <mark>like this</mark>.
   I'm a very passionate and curious person, always looking for the next challenge to dive in and accomplish.
@@ -59,7 +59,7 @@ about_content: | # this will include new lines to allow paragraphs
     - Lists
     - Tables
     - <a href="google.com">Links</a>
-    - Images ![alt text](\images\landscape-trees.jpg "Trees")
+    - Images ![alt text](/images/landscape-trees.jpg "Trees")
 
 content:
   - title: Projects # Title for the section
@@ -68,7 +68,7 @@ content:
       - layout: left
         title: Orbital Mechanics
         link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-        link_text: Report ![Report](\docs\OrbitalMechanics\OrbitalMech_20192020_group01.pdf)
+        link_text: Report ![Report](/docs/OrbitalMechanics/OrbitalMech_20192020_group01.pdf)
         # additional_links:
           - title:  Github page for project (eg. sproogen/modern-resume-theme)
             icon: fab fa-github
