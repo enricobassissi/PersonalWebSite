@@ -1,6 +1,11 @@
 # Site
+<<<<<<< HEAD
 # repository: Git repository where your resume will be hosted, only required if you are hosting on GitHub (eg. sproogen/modern-resume-theme)
 favicon: images\saturn-icon-vector.ico
+=======
+repository: Git repository where your resume will be hosted, only required if you are hosting on GitHub (eg. sproogen/modern-resume-theme)
+# favicon: Directory of your favicon (eg. images/favicon.ico)(optional)
+>>>>>>> parent of 550a3e3 (update _config.yml)
 
 # Content configuration version
 version: 2
@@ -12,7 +17,7 @@ email: enrico.bassissi@gmail.com
 # email_title: Email (Email title override)
 phone: +39 3664116862
 # phone_title: Phone (Phone title override)
-website: https://enricobassissi.github.io/PersonalWebSite/
+website: Your website (eg. https://google.com)(optional)
 # website_title: Web (Website title override)
 
 # Dark Mode (true/false/never)
@@ -20,6 +25,7 @@ darkmode: true
 
 # Social links
 twitter_username: EnriBax
+<<<<<<< HEAD
 github_username:  enricobassissi
 # stackoverflow_username: "00000001"
 # dribbble_username: jekyll
@@ -32,6 +38,20 @@ linkedin_username: enrico-bassissi/
 # youtube_username: jekyll
 # googleplus_username: +jekyll
 orcid_username: 0000-0001-8501-9445
+=======
+github_username:  EnricoBassissi-PoliMi
+stackoverflow_username: "00000001"
+dribbble_username: jekyll
+facebook_username: jekyll
+flickr_username: jekyll
+instagram_username: jekyll
+linkedin_username: jekyll
+xing_username: jekyll
+pinterest_username: jekyll
+youtube_username: jekyll
+googleplus_username: +jekyll
+orcid_username: 0000-0000-0000-0000
+>>>>>>> parent of 550a3e3 (update _config.yml)
 
 # Additional icon links
 # additional_links:
